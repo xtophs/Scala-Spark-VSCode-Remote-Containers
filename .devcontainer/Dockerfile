@@ -1,4 +1,6 @@
-FROM bitnami/spark:3.0.0
+#FROM spark:3.5.0-scala2.12-java11-ubuntu
+
+FROM bitnami/spark:3.4
 
 USER root
 

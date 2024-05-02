@@ -10,10 +10,17 @@ class CubeCalculatorTest extends org.scalatest.funsuite.AnyFunSuite with DataFra
   // get default conf
   val defaultConf = new SparkConf()
   
-  test("CubeCalculator.cube") {
-    assert(CubeCalculator.cube(3) === 27)
-  }
+  // test("CubeCalculator.cube") {
+  //   assert(CubeCalculator.cube(3) === 27)
+  // }
 
+  // test("FabricRead.readFile"){
+  //   assert(FabricRead.readFile())
+  // }
+
+  test("FabricRead.readTable"){
+    assert(FabricRead.readTable())
+  }
   test("MrPowersTest")
   {
     // if master is not defined then set default to local

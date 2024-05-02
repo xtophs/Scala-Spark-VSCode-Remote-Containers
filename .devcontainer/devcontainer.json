@@ -14,19 +14,22 @@
 	//"service": "spark-master",
 
 	// Set *default* container specific settings.json values on container create.
-	"settings": {
-		"terminal.integrated.shell.linux": "sh"
-	},
+	// "settings": {
+	// 	"terminal.integrated.shell.linux": "sh"
+	// },
 
-	// Add the IDs of extensions you want installed when the container is created.
+	
+
+	Add the IDs of extensions you want installed when the container is created.
 	"extensions": [
+		"scala-lang.scala",
 		"scalameta.metals"
 	],
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
-	"forwardPorts": [
-		8080
-	],
+	// "forwardPorts": [
+	// 	8080
+	// ],
 
 	// Uncomment the next line if you want start specific services in your Docker Compose config.
 	// "runServices": [],
@@ -34,7 +37,7 @@
 	// Uncomment the next line if you want to keep your containers running after VS Code shuts down.
 	// "shutdownAction": "none",
 	
-	"overrideCommand":false,
+	// "overrideCommand":false,
 	
 	// Uncomment the next line to run commands after the container is created - for example installing curl.
     //"postCreateCommand": "/opt/bitnami/scripts/spark/run.sh",

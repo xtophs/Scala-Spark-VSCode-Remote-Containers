@@ -11,7 +11,8 @@
         "testClass": "CubeCalculatorTest",
         // optional build target name in case there more than one
         // class with the same name
-        "buildTarget": "root-test"
+        "buildTarget": "root-test",
+        "envFile": "${workspaceFolder}/.env"
       }
     ]
   }
